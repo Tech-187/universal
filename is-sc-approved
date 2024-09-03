@@ -1,0 +1,19 @@
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Tech-187/universal/main/v1.0%20approved%20table'),true))()
+
+local function check(d, e)
+	for f, g in ipairs(e) do
+		if g == d then
+			return true
+		end
+	end;
+	return false
+end;
+
+if check(identifyexecutor(), scapproved) then
+	print("Your executor is SC Approved!")
+else
+	print("Your executor is NOT SC Approved.")
+end
+
+print("I am making this script way better soon, coming with our global score and everything.")
+print("v1.0")
